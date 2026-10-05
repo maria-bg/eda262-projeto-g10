@@ -1,8 +1,3 @@
-"""
-Gera dados simulados de pedidos de farmácia online com sujeira intencional.
-Saída: dados/itens_pedido_raw.csv (~500 linhas)
-"""
-
 import csv
 import os
 import random
