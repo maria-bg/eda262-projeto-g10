@@ -1,0 +1,387 @@
+pedido_id,item_id,produto_nome,categoria,quantidade,preco_unitario,data_pedido,status_pagamento,cliente_id
+PED-0075,ITEM-00225,Inalador Nebulizador,equipamentos,3,149.9,2026-09-28,cancelado,CLI-9313
+PED-0060,ITEM-00183,Hidratante Facial 60g,dermocosmeticos,4,32.0,2026-08-11,pendente,CLI-2747
+PED-0050,ITEM-00149,Protetor Solar FPS 50,dermocosmeticos,2,45.9,2026-09-04,cancelado,CLI-8245
+PED-0056,ITEM-00169,Paracetamol 750mg,Medicamentos,5,7.5,2026-08-28,pendente,CLI-2644
+PED-0054,ITEM-00163,Sabonete Líquido 250ml,higiene,3,9.9,2026-08-16,pendente,CLI-6568
+PED-0009,ITEM-00025,Medidor de Pressão Automático,equipamentos,2,189.9,2026-09-11,pago,CLI-9837
+PED-0107,ITEM-00326,Shampoo Anticaspa 300ml,higiene,2,22.5,2026-08-23,cancelado,CLI-6531
+PED-0110,ITEM-00333,Termômetro Digital,equipamentos,3,59.9,2026-09-19,pendente,CLI-3007
+PED-0028,ITEM-00087,Medidor de Pressão Automático,equipamentos,4,189.9,2026-09-03,pendente,CLI-4997
+PED-0016,ITEM-00051,Creme para Mãos 100g,dermocosmeticos,2,18.5,2026-08-23,cancelado,CLI-6147
+PED-0115,ITEM-00349,Inalador Nebulizador,equipamentos,5,149.9,2026-08-12,cancelado,CLI-9721
+PED-0016,ITEM-00050,Termômetro Digital,equipamentos,5,59.9,2026-09-29,pendente,CLI-9565
+PED-0050,ITEM-00150,Hidratante Facial 60g,dermocosmeticos,5,32.0,2026-09-07,cancelado,CLI-9056
+PED-0061,ITEM-00187,Shampoo Anticaspa 300ml,higiene,5,22.5,2026-09-18,cancelado,CLI-3240
+PED-0059,ITEM-00180,Vitamina D3 2000UI,vitaminas,4,29.9,2026-09-18,cancelado,CLI-1153
+PED-0096,ITEM-00288,Escova de Dente Macia,higiene,2,8.2,2026-08-23,cancelado,CLI-2402
+PED-0023,ITEM-00072,Glicosímetro,equipamentos,5,79.9,13/09/2026,pago,CLI-2889
+PED-0025,ITEM-00081,Inalador Nebulizador,equipamentos,4,149.9,2026-08-30,pago,CLI-5978
+PED-0090,ITEM-00273,Sérum Vitamina C 30ml,dermocosmeticos,2,89.9,2026-09-11,cancelado,CLI-8218
+PED-0047,ITEM-00140,Shampoo Anticaspa 300ml,higiene,5,,2026-09-30,pago,CLI-1043
+PED-0086,ITEM-00257,Sérum Vitamina C 30ml,dermocosmeticos,5,89.9,2026-09-25,pago,CLI-8381
+PED-0111,ITEM-00338,Amoxicilina 500mg,medicamentos,5,18.9,2026-09-05,pago,CLI-4524
+PED-0067,ITEM-00205,Paracetamol 750mg,medicamentos,5,7.5,2026-10-03,pago,CLI-6464
+PED-0029,ITEM-00094,Hidratante Facial 60g,dermocosmeticos,3,32.0,2026-09-13,pendente,CLI-9849
+PED-0061,ITEM-00185,null,medicamentos,3,18.9,2026-10-04,cancelado,CLI-1803
+PED-0110,ITEM-00335,null,dermocosmeticos,5,89.9,2026-09-08,pago,CLI-3616
+PED-0075,ITEM-00226,Shampoo Anticaspa 300ml,higiene,4,22.5,2026-09-20,pago,CLI-6736
+PED-0119,ITEM-00365,Shampoo Anticaspa 300ml,higiene,5,22.5,2026-09-17,cancelado,CLI-5450
+PED-0060,ITEM-00184,Escova de Dente Macia,higiene,5,8.2,2026-09-12,cancelado,CLI-5847
+PED-0112,ITEM-00340,Protetor Solar FPS 50,dermocosmeticos,1,45.9,2026-09-07,pago,CLI-5333
+PED-0107,ITEM-00324,Creme para Mãos 100g,dermocosmeticos,1,18.5,2026-09-18,pago,CLI-5496
+PED-0008,ITEM-00023,Ibuprofeno 600mg,medicamentos,4,12.3,2026-09-24,pendente,CLI-1053
+PED-0106,ITEM-00322,Escova de Dente Macia,higiene,5,8.2,2026-08-07,pago,CLI-3034
+PED-0067,ITEM-00204,Amoxicilina 500mg,medicamentos,tres,18.9,2026-09-22,pago,CLI-8450
+PED-0070,ITEM-00214,Complexo B 60 cápsulas,vitaminas,dois,19.9,2026-08-22,pago,CLI-9032
+PED-0115,ITEM-00347,Ômega 3 1000mg,vitaminas,5,38.9,2026-08-08,cancelado,CLI-3290
+PED-0045,ITEM-00133,Complexo B 60 cápsulas,vitaminas,3,19.9,2026-09-23,pago,CLI-5136
+PED-0080,ITEM-00241,Inalador Nebulizador,equipamentos,1,149.9,2026-09-09,cancelado,CLI-1693
+PED-0024,ITEM-00076,Protetor Solar FPS 50,dermocosmeticos,4,45.9,2026-10-04,cancelado,CLI-9821
+PED-0082,ITEM-00247,Hidratante Facial 60g,dermocosmeticos,3,32.0,2026-08-16,pago,CLI-2251
+PED-0072,ITEM-00219,Ômega 3 1000mg,vitaminas,4,38.9,2026-09-13,pendente,CLI-7532
+PED-0041,ITEM-00126,Sérum Vitamina C 30ml,dermocosmeticos,3,89.9,2026-09-15,pendente,CLI-4777
+PED-0032,ITEM-00101,Vitamina C 1g Efervescente,vitaminas,4,24.9,2026-09-13,cancelado,CLI-7624
+PED-0120,ITEM-00368,Amoxicilina 500mg,medicamentos,3,18.9,2026-08-20,pendente,CLI-2647
+PED-0023,ITEM-00074,Glicosímetro,equipamentos,3,79.9,2026-08-19,pendente,CLI-8149
+PED-0057,ITEM-00175,Dipirona 500mg,medicamentos,4,8.9,2026-09-24,cancelado,CLI-5906
+PED-0094,ITEM-00282,Escova de Dente Macia,higiene,4,8.2,2026-08-26,pago,CLI-2298
+PED-0103,ITEM-00310,Dipirona 500mg,medicamentos,2,8.9,2026-09-03,cancelado,CLI-7340
+PED-0099,ITEM-00298,Creme para Mãos 100g,dermocosmeticos,1,18.5,2026-08-14,pendente,CLI-8159
+PED-0065,ITEM-00197,Amoxicilina 500mg,medicamentos,3,18.9,24/08/2026,pendente,CLI-2911
+PED-0076,ITEM-00228,Termômetro Digital,equipamentos,5,59.9,2026-08-06,cancelado,CLI-5381
+PED-0105,ITEM-00316,Shampoo Anticaspa 300ml,higiene,2,22.5,2026-08-15,pendente,CLI-1430
+PED-0057,ITEM-00176,Dipirona 500mg,medicamentos,3,8.9,2026-08-15,pago,CLI-5806
+PED-0036,ITEM-00109,Vitamina C 1g Efervescente,vitaminas,5,24.9,2026-08-05,pago,CLI-8619
+PED-0054,ITEM-00162,Ômega 3 1000mg,vitaminas,4,38.9,2026-09-22,cancelado,CLI-9327
+PED-0032,ITEM-00099,Sérum Vitamina C 30ml,dermocosmeticos,4,,2026-08-31,cancelado,CLI-9947
+PED-0073,ITEM-00223,Sabonete Líquido 250ml,higiene,5,9.9,2026-08-30,cancelado,CLI-6400
+PED-0049,ITEM-00145,Inalador Nebulizador,equipamentos,4,149.9,2026-09-27,pendente,CLI-5982
+PED-0029,ITEM-00091,Glicosímetro,equipamentos,dois,79.9,2026-09-06,pago,CLI-8777
+PED-0106,ITEM-00320,Fio Dental 50m,higiene,1,5.8,2026-09-06,pendente,CLI-9476
+PED-0082,ITEM-00246,Glicosímetro,equipamentos,5,79.9,2026-09-29,pendente,CLI-6083
+PED-0103,ITEM-00312,Fio Dental 50m,higiene,4,5.8,2026-09-22,pago,CLI-3223
+PED-0114,ITEM-00346,Dipirona 500mg,medicamentos,2,8.9,2026-08-20,pendente,CLI-8761
+PED-0110,ITEM-00334,Sérum Vitamina C 30ml,dermocosmeticos,2,89.9,2026-09-25,pago,CLI-1829
+PED-0070,ITEM-00211,Dipirona 500mg,medicamentos,4,8.9,2026-09-06,pendente,CLI-9408
+PED-0103,ITEM-00313,Amoxicilina 500mg,medicamentos,2,18.9,2026-08-08,cancelado,CLI-8292
+PED-0021,ITEM-00065,Ibuprofeno 600mg,medicamentos,2,12.3,2026-08-22,pago,CLI-2684
+PED-0009,ITEM-00028,Termômetro Digital,equipamentos,1,59.9,2026-08-19,pendente,CLI-2133
+PED-0105,ITEM-00317,Creme para Mãos 100g,dermocosmeticos,4,18.5,2026-08-14,cancelado,CLI-3126
+PED-0090,ITEM-00272,Vitamina D3 2000UI,vitaminas,4,29.9,2026-09-20,cancelado,CLI-4918
+PED-0087,ITEM-00261,Protetor Solar FPS 50,dermocosmeticos,3,45.9,2026-09-30,pendente,CLI-2548
+PED-0047,ITEM-00141,Complexo B 60 cápsulas,vitaminas,5,19.9,2026-09-04,pendente,CLI-1534
+PED-0056,ITEM-00171,Escova de Dente Macia,higiene,2,8.2,2026-09-30,pendente,CLI-5342
+PED-0044,ITEM-00130,Hidratante Facial 60g,dermocosmeticos,3,32.0,2026-10-04,cancelado,CLI-9751
+PED-0001,ITEM-00001,Ibuprofeno 600mg,medicamentos,2,12.3,2026-09-20,pago,CLI-2679
+PED-0003,ITEM-00007,Creme para Mãos 100g,dermocosmeticos,1,18.5,2026-08-19,pendente,CLI-9785
+PED-0004,ITEM-00010,Paracetamol 750mg,medicamentos,1,7.5,2026-09-10,pendente,CLI-8428
+PED-0002,ITEM-00005,Paracetamol 750mg,medicamentos,4,7.5,2026-09-13,pendente,CLI-3547
+PED-0107,ITEM-00323,Fio Dental 50m,higiene,2,5.8,2026-09-24,pendente,CLI-4694
+PED-0003,ITEM-00008,Amoxicilina 500mg,medicamentos,1,18.9,2026-08-30,pendente,CLI-6925
+PED-0031,ITEM-00096,Amoxicilina 500mg,medicamentos,4,18.9,2026-09-13,cancelado,CLI-8633
+PED-0073,ITEM-00220,Ibuprofeno 600mg,medicamentos,4,12.3,2026-09-14,cancelado,CLI-5176
+PED-0028,ITEM-00090,Ômega 3 1000mg,vitaminas,-1,38.9,2026-08-23,cancelado,CLI-6198
+PED-0099,ITEM-00295,Ibuprofeno 600mg,medicamentos,2,12.3,2026-10-02,pago,CLI-1686
+PED-0086,ITEM-00256,Termômetro Digital,equipamentos,4,59.9,2026-08-07,cancelado,CLI-4084
+PED-0085,ITEM-00255,Omeprazol 20mg,medicamentos,5,15.4,2026-09-02,pendente,CLI-8581
+PED-0014,ITEM-00046,Shampoo Anticaspa 300ml,higiene,3,22.5,2026-09-21,pago,CLI-9883
+PED-0008,ITEM-00022,Omeprazol 20mg,medicamentos,3,15.4,2026-08-16,cancelado,CLI-6573
+PED-0018,ITEM-00059,Creme para Mãos 100g,dermocosmeticos,5,18.5,2026-09-21,cancelado,CLI-6617
+PED-0049,ITEM-00147,Omeprazol 20mg,medicamentos,1,15.4,2026-08-09,pendente,CLI-6280
+PED-0081,ITEM-00243,Glicosímetro,equipamentos,4,79.9,2026-09-16,pago,CLI-7636
+PED-0089,ITEM-00268,Shampoo Anticaspa 300ml,higiene,1,22.5,2026-09-16,pago,CLI-9317
+PED-0101,ITEM-00304,Glicosímetro,equipamentos,3,79.9,2026-08-25,pago,CLI-2229
+PED-0013,ITEM-00044,Escova de Dente Macia,higiene,1,8.2,2026-09-24,pendente,CLI-1035
+PED-0028,ITEM-00088,Sabonete Líquido 250ml,higiene,1,9.9,2026-08-16,pendente,CLI-4585
+PED-0025,ITEM-00084,Ômega 3 1000mg,vitaminas,1,,2026-09-16,cancelado,CLI-6491
+PED-0039,ITEM-00117,Sérum Vitamina C 30ml,dermocosmeticos,4,89.9,2026-09-07,cancelado,CLI-5397
+PED-0020,ITEM-00064,Medidor de Pressão Automático,equipamentos,4,189.9,2026-09-26,pago,CLI-6050
+PED-0112,ITEM-00343,Complexo B 60 cápsulas,vitaminas,5,19.9,17/09/2026,cancelado,CLI-2946
+PED-0086,ITEM-00260,Medidor de Pressão Automático,equipamentos,3,189.9,2026-09-11,pendente,CLI-7347
+PED-0049,ITEM-00146,Vitamina D3 2000UI,vitaminas,5,29.9,2026-08-31,pendente,CLI-8172
+PED-0106,ITEM-00318,Dipirona 500mg,medicamentos,3,8.9,2026-09-09,cancelado,CLI-8842
+PED-0013,ITEM-00043,Paracetamol 750mg,medicamentos,2,7.5,2026-09-08,pendente,CLI-8886
+PED-0089,ITEM-00269,Termômetro Digital,equipamentos,3,59.9,2026-08-09,cancelado,CLI-3147
+PED-0007,ITEM-00020,Shampoo Anticaspa 300ml,higiene,dois,22.5,2026-08-27,pago,CLI-7304
+PED-0102,ITEM-00308,Vitamina D3 2000UI,vitaminas,3,29.9,2026-09-06,pago,CLI-3255
+PED-0053,ITEM-00159,Termômetro Digital,equipamentos,5,59.9,2026-09-08,pago,CLI-4681
+PED-0045,ITEM-00132,Vitamina C 1g Efervescente,vitaminas,1,24.9,2026-08-29,pendente,CLI-8690
+PED-0068,ITEM-00207,Medidor de Pressão Automático,equipamentos,2,189.9,2026-09-13,pago,CLI-1046
+PED-0078,ITEM-00235,Complexo B 60 cápsulas,vitaminas,4,,2026-09-17,pago,CLI-9394
+PED-0107,ITEM-00327,Termômetro Digital,equipamentos,1,59.9,2026-09-29,pago,CLI-5336
+PED-0011,ITEM-00034,Paracetamol 750mg,medicamentos,1,7.5,2026-08-08,pago,CLI-6413
+PED-0002,ITEM-00003,Shampoo Anticaspa 300ml,higiene,5,22.5,2026-08-27,pago,CLI-4257
+PED-0052,ITEM-00157,Hidratante Facial 60g,dermocosmeticos,3,32.0,2026-09-06,cancelado,CLI-8941
+PED-0055,ITEM-00167,Escova de Dente Macia,higiene,2,8.2,2026-08-11,pendente,CLI-1715
+PED-0107,ITEM-00325,Fio Dental 50m,higiene,5,5.8,2026-08-31,pago,CLI-9234
+PED-0037,ITEM-00111,Protetor Solar FPS 50,dermocosmeticos,5,45.9,2026-10-03,pendente,CLI-7149
+PED-0010,ITEM-00031,Sérum Vitamina C 30ml,dermocosmeticos,3,89.9,2026-09-06,cancelado,CLI-8397
+PED-0002,ITEM-00006,null,higiene,1,5.8,2026-09-29,pendente,CLI-2584
+PED-0088,ITEM-00266,Amoxicilina 500mg,medicamentos,5,18.9,2026-09-11,pago,CLI-6940
+PED-0041,ITEM-00125,Vitamina D3 2000UI,vitaminas,4,29.9,2026-08-18,cancelado,CLI-6419
+PED-0064,ITEM-00191,Hidratante Facial 60g,dermocosmeticos,3,32.0,2026-08-07,pendente,CLI-5835
+PED-0009,ITEM-00027,Ibuprofeno 600mg,medicamentos,3,12.3,2026-09-19,pago,CLI-4946
+PED-0093,ITEM-00280,Vitamina C 1g Efervescente,vitaminas,3,24.9,2026-09-20,pago,CLI-6221
+PED-0013,ITEM-00041,Fio Dental 50m,higiene,4,5.8,2026-09-19,pago,CLI-8260
+PED-0035,ITEM-00108,Shampoo Anticaspa 300ml,higiene,1,22.5,2026-08-26,pago,CLI-4908
+PED-0046,ITEM-00137,Glicosímetro,Equipamentos,4,79.9,2026-08-07,pendente,CLI-5871
+PED-0110,ITEM-00334,Sérum Vitamina C 30ml,Dermocosmeticos,2,89.9,2026-09-25,pago,CLI-1829
+PED-0009,ITEM-00026,Termômetro Digital,equipamentos,5,59.9,2026-09-14,pendente,CLI-1319
+PED-0102,ITEM-00305,Hidratante Facial 60g,dermocosmeticos,1,32.0,2026-09-25,cancelado,CLI-8179
+PED-0043,ITEM-00128,Escova de Dente Macia,higiene,3,8.2,19/08/2026,cancelado,CLI-9595
+PED-0099,ITEM-00296,Creme para Mãos 100g,dermocosmeticos,5,18.5,2026-09-09,cancelado,CLI-8756
+PED-0021,ITEM-00067,Shampoo Anticaspa 300ml,higiene,4,22.5,2026-10-03,pago,CLI-6442
+PED-0119,ITEM-00364,Ibuprofeno 600mg,medicamentos,4,12.3,2026-08-24,pendente,CLI-8849
+PED-0094,ITEM-00283,Ibuprofeno 600mg,medicamentos,2,12.3,2026-08-12,pago,CLI-9991
+PED-0040,ITEM-00120,Escova de Dente Macia,higiene,2,8.2,2026-09-12,pendente,CLI-6576
+PED-0066,ITEM-00200,Glicosímetro,equipamentos,5,79.9,2026-08-18,cancelado,CLI-3531
+PED-0023,ITEM-00073,Hidratante Facial 60g,dermocosmeticos,5,32.0,2026-09-18,pago,CLI-2776
+PED-0108,ITEM-00329,Inalador Nebulizador,equipamentos,3,149.9,2026-09-04,pago,CLI-7653
+PED-0077,ITEM-00232,Complexo B 60 cápsulas,vitaminas,4,19.9,2026-09-13,pago,CLI-7062
+PED-0032,ITEM-00102,Escova de Dente Macia,higiene,2,8.2,2026-08-26,cancelado,CLI-1441
+PED-0066,ITEM-00201,Vitamina C 1g Efervescente,vitaminas,4,24.9,2026-08-26,pendente,CLI-5583
+PED-0033,ITEM-00103,Termômetro Digital,equipamentos,-1,59.9,2026-08-24,pendente,CLI-3223
+PED-0070,ITEM-00212,Termômetro Digital,equipamentos,4,59.9,2026-09-02,pago,CLI-1710
+PED-0100,ITEM-00302,Ibuprofeno 600mg,medicamentos,3,12.3,2026-09-15,pendente,CLI-7981
+PED-0052,ITEM-00156,Glicosímetro,equipamentos,4,79.9,2026-08-17,pago,CLI-4335
+PED-0017,ITEM-00055,Paracetamol 750mg,medicamentos,3,7.5,2026-09-16,pago,CLI-8179
+PED-0002,ITEM-00004,Glicosímetro,equipamentos,2,79.9,06/09/2026,cancelado,CLI-5557
+PED-0080,ITEM-00240,Ômega 3 1000mg,vitaminas,2,"38,9",2026-09-10,cancelado,CLI-4770
+PED-0027,ITEM-00086,Paracetamol 750mg,medicamentos,4,7.5,2026-08-26,pago,CLI-8461
+PED-0016,ITEM-00054,Omeprazol 20mg,medicamentos,2,15.4,2026-09-02,pendente,CLI-3170
+PED-0041,ITEM-00123,Complexo B 60 cápsulas,vitaminas,1,19.9,2026-09-29,pendente,CLI-4630
+PED-0100,ITEM-00300,Creme para Mãos 100g,dermocosmeticos,1,18.5,2026-08-19,pendente,CLI-2293
+PED-0084,ITEM-00252,Escova de Dente Macia,higiene,1,8.2,2026-09-04,pendente,CLI-5961
+PED-0050,ITEM-00151,Amoxicilina 500mg,medicamentos,3,18.9,2026-09-08,pendente,CLI-6260
+PED-0055,ITEM-00164,Protetor Solar FPS 50,dermocosmeticos,3,45.9,2026-08-19,pendente,CLI-9022
+PED-0007,ITEM-00019,Glicosímetro,equipamentos,tres,79.9,2026-08-17,pago,CLI-2796
+PED-0004,ITEM-00011,Hidratante Facial 60g,dermocosmeticos,3,32.0,2026-09-12,pago,CLI-5374
+PED-0110,ITEM-00335,Sérum Vitamina C 30ml,dermocosmeticos,5,,2026-09-08,pago,CLI-3616
+PED-0051,ITEM-00155,Glicosímetro,Equipamentos,4,79.9,2026-10-01,pago,CLI-9494
+PED-0098,ITEM-00293,Ibuprofeno 600mg,medicamentos,5,12.3,2026-09-13,cancelado,CLI-3868
+PED-0095,ITEM-00286,Amoxicilina 500mg,medicamentos,5,18.9,2026-08-31,pago,CLI-9443
+PED-0005,ITEM-00014,Protetor Solar FPS 50,dermocosmeticos,2,45.9,2026-08-13,pago,CLI-6168
+PED-0015,ITEM-00049,Termômetro Digital,equipamentos,2,59.9,09/09/2026,pago,CLI-5033
+PED-0082,ITEM-00248,Termômetro Digital,equipamentos,5,59.9,2026-09-02,pago,CLI-6724
+PED-0102,ITEM-00307,Sérum Vitamina C 30ml,dermocosmeticos,5,89.9,2026-10-02,cancelado,CLI-3513
+PED-0030,ITEM-00095,Shampoo Anticaspa 300ml,higiene,2,22.5,10/09/2026,cancelado,CLI-3503
+PED-0039,ITEM-00116,Ômega 3 1000mg,vitaminas,4,38.9,2026-09-23,cancelado,CLI-9548
+PED-0008,ITEM-00021,Glicosímetro,equipamentos,5,79.9,2026-09-18,cancelado,CLI-1188
+PED-0055,ITEM-00166,Glicosímetro,equipamentos,4,79.9,06/08/2026,pendente,CLI-4090
+PED-0110,ITEM-00336,Creme para Mãos 100g,dermocosmeticos,2,18.5,2026-08-17,pago,CLI-9163
+PED-0016,ITEM-00053,Vitamina D3 2000UI,vitaminas,1,29.9,2026-10-04,pendente,CLI-2638
+PED-0093,ITEM-00279,Vitamina C 1g Efervescente,vitaminas,4,24.9,2026-09-02,pendente,CLI-4862
+PED-0082,ITEM-00249,Hidratante Facial 60g,dermocosmeticos,2,32.0,2026-09-28,pago,CLI-5193
+PED-0032,ITEM-00100,Medidor de Pressão Automático,equipamentos,4,189.9,2026-09-20,pendente,CLI-8140
+PED-0081,ITEM-00245,Protetor Solar FPS 50,dermocosmeticos,4,45.9,2026-08-11,pago,CLI-4986
+PED-0046,ITEM-00136,Sabonete Líquido 250ml,higiene,5,9.9,2026-08-17,pendente,CLI-4697
+PED-0068,ITEM-00206,Shampoo Anticaspa 300ml,higiene,1,22.5,12/08/2026,cancelado,CLI-4394
+PED-0097,ITEM-00292,Hidratante Facial 60g,dermocosmeticos,1,32.0,2026-08-16,cancelado,CLI-6447
+PED-0110,ITEM-00334,Sérum Vitamina C 30ml,dermocosmeticos,2,89.9,2026-09-25,pago,CLI-1829
+PED-0048,ITEM-00144,Fio Dental 50m,higiene,2,5.8,2026-09-30,pago,CLI-3718
+PED-0090,ITEM-00274,Vitamina D3 2000UI,vitaminas,dois,29.9,2026-09-02,cancelado,CLI-7859
+PED-0040,ITEM-00119,Glicosímetro,equipamentos,-2,79.9,2026-10-03,pendente,CLI-6325
+PED-0073,ITEM-00221,Hidratante Facial 60g,dermocosmeticos,4,32.0,2026-09-30,pago,CLI-2398
+PED-0060,ITEM-00182,Inalador Nebulizador,equipamentos,4,149.9,2026-08-21,pendente,CLI-8484
+PED-0106,ITEM-00319,Glicosímetro,equipamentos,4,79.9,2026-08-13,cancelado,CLI-2208
+PED-0087,ITEM-00264,Sérum Vitamina C 30ml,dermocosmeticos,2,89.9,2026-08-27,cancelado,CLI-2388
+PED-0020,ITEM-00062,Escova de Dente Macia,higiene,5,8.2,2026-08-20,pendente,CLI-1158
+PED-0040,ITEM-00122,Paracetamol 750mg,medicamentos,4,7.5,2026-09-03,cancelado,CLI-4937
+PED-0047,ITEM-00138,Vitamina D3 2000UI,vitaminas,5,29.9,2026-08-26,pago,CLI-2625
+PED-0014,ITEM-00048,Medidor de Pressão Automático,equipamentos,1,189.9,2026-09-02,pago,CLI-4044
+PED-0088,ITEM-00265,Glicosímetro,equipamentos,3,79.9,2026-08-13,pago,CLI-9624
+PED-0112,ITEM-00339,Protetor Solar FPS 50,dermocosmeticos,1,45.9,2026-09-16,pendente,CLI-8710
+PED-0012,ITEM-00039,Dipirona 500mg,medicamentos,4,8.9,2026-08-19,pendente,CLI-2790
+PED-0033,ITEM-00105,Escova de Dente Macia,higiene,3,8.2,2026-09-13,pendente,CLI-5558
+PED-0034,ITEM-00107,Hidratante Facial 60g,dermocosmeticos,1,32.0,2026-08-16,cancelado,CLI-1659
+PED-0094,ITEM-00285,Protetor Solar FPS 50,dermocosmeticos,1,45.9,2026-09-19,pendente,CLI-8489
+PED-0096,ITEM-00291,Vitamina D3 2000UI,vitaminas,3,29.9,2026-08-18,pago,CLI-6850
+PED-0046,ITEM-00135,Shampoo Anticaspa 300ml,higiene,5,22.5,2026-08-05,pendente,CLI-2395
+PED-0032,ITEM-00098,Omeprazol 20mg,medicamentos,4,15.4,2026-09-04,pago,CLI-6763
+PED-0056,ITEM-00172,Sérum Vitamina C 30ml,dermocosmeticos,1,89.9,2026-08-11,pendente,CLI-9742
+PED-0055,ITEM-00165,Escova de Dente Macia,higiene,5,8.2,2026-09-04,pendente,CLI-6446
+PED-0028,ITEM-00089,Escova de Dente Macia,higiene,1,8.2,2026-08-30,pago,CLI-2988
+PED-0083,ITEM-00250,Shampoo Anticaspa 300ml,higiene,1,22.5,2026-09-23,cancelado,CLI-9095
+PED-0115,ITEM-00350,Vitamina D3 2000UI,vitaminas,4,29.9,2026-08-13,pago,CLI-7035
+PED-0106,ITEM-00321,Hidratante Facial 60g,dermocosmeticos,5,32.0,2026-08-25,cancelado,CLI-3981
+PED-0036,ITEM-00110,Creme para Mãos 100g,dermocosmeticos,2,18.5,2026-08-27,cancelado,CLI-2876
+PED-0057,ITEM-00174,Fio Dental 50m,higiene,2,5.8,2026-08-18,pago,CLI-8110
+PED-0053,ITEM-00161,Creme para Mãos 100g,dermocosmeticos,4,18.5,2026-08-12,pendente,CLI-8736
+PED-0014,ITEM-00045,Sérum Vitamina C 30ml,dermocosmeticos,3,89.9,2026-09-07,cancelado,CLI-8973
+PED-0022,ITEM-00071,Vitamina D3 2000UI,vitaminas,3,29.9,2026-08-10,pago,CLI-5573
+PED-0002,ITEM-00003,null,higiene,-1,22.5,2026-08-27,pago,CLI-4257
+PED-0048,ITEM-00143,Hidratante Facial 60g,dermocosmeticos,4,32.0,2026-09-27,cancelado,CLI-4683
+PED-0006,ITEM-00016,Escova de Dente Macia,higiene,4,8.2,2026-08-09,cancelado,CLI-8517
+PED-0022,ITEM-00071,Vitamina D3 2000UI,vitaminas,3,29.9,2026-08-10,pago,CLI-5573
+PED-0110,ITEM-00337,Glicosímetro,equipamentos,4,79.9,2026-08-09,pendente,CLI-9148
+PED-0116,ITEM-00356,Ômega 3 1000mg,vitaminas,4,38.9,2026-09-02,cancelado,CLI-8726
+PED-0017,ITEM-00057,Omeprazol 20mg,medicamentos,3,15.4,2026-08-06,cancelado,CLI-2697
+PED-0046,ITEM-00134,null,medicamentos,4,8.9,03/09/2026,pago,CLI-1878
+PED-0056,ITEM-00170,Vitamina C 1g Efervescente,vitaminas,5,"24,9",2026-08-07,pendente,CLI-1251
+PED-0011,ITEM-00037,Complexo B 60 cápsulas,vitaminas,2,19.9,2026-09-28,pago,CLI-8062
+PED-0024,ITEM-00078,Inalador Nebulizador,equipamentos,1,149.9,2026-08-19,pendente,CLI-9308
+PED-0094,ITEM-00284,Glicosímetro,equipamentos,1,79.9,2026-08-16,pendente,CLI-4893
+PED-0025,ITEM-00083,Complexo B 60 cápsulas,vitaminas,4,19.9,2026-08-22,pago,CLI-9375
+PED-0103,ITEM-00309,Sérum Vitamina C 30ml,dermocosmeticos,3,89.9,2026-08-24,pendente,CLI-5089
+PED-0084,ITEM-00253,Protetor Solar FPS 50,dermocosmeticos,3,45.9,2026-09-02,pago,CLI-6085
+PED-0065,ITEM-00198,Sabonete Líquido 250ml,higiene,1,9.9,2026-09-15,pendente,CLI-2902
+PED-0084,ITEM-00254,Complexo B 60 cápsulas,vitaminas,1,19.9,2026-10-01,pendente,CLI-5703
+PED-0076,ITEM-00231,Paracetamol 750mg,medicamentos,1,7.5,2026-09-29,cancelado,CLI-9691
+PED-0050,ITEM-00148,Protetor Solar FPS 50,dermocosmeticos,1,45.9,2026-09-20,cancelado,CLI-1339
+PED-0050,ITEM-00148,Protetor Solar FPS 50,dermocosmeticos,1,45.9,2026-09-20,cancelado,CLI-1339
+PED-0062,ITEM-00188,Ibuprofeno 600mg,medicamentos,4,12.3,2026-10-02,cancelado,CLI-6977
+PED-0069,ITEM-00209,Paracetamol 750mg,medicamentos,1,7.5,2026-09-12,pago,CLI-6304
+PED-0081,ITEM-00244,Ibuprofeno 600mg,medicamentos,2,12.3,2026-08-14,cancelado,CLI-8538
+PED-0024,ITEM-00075,Termômetro Digital,equipamentos,4,59.9,2026-08-08,cancelado,CLI-4114
+PED-0043,ITEM-00129,Inalador Nebulizador,equipamentos,1,149.9,2026-08-12,pago,CLI-5853
+PED-0100,ITEM-00301,Ômega 3 1000mg,vitaminas,5,38.9,2026-09-16,pendente,CLI-2680
+PED-0006,ITEM-00015,Protetor Solar FPS 50,dermocosmeticos,2,45.9,2026-08-07,cancelado,CLI-6155
+PED-0065,ITEM-00199,Paracetamol 750mg,medicamentos,5,7.5,2026-09-26,pendente,CLI-8432
+PED-0073,ITEM-00222,Amoxicilina 500mg,medicamentos,1,18.9,2026-08-18,cancelado,CLI-7105
+PED-0096,ITEM-00290,Termômetro Digital,equipamentos,4,59.9,2026-08-10,pendente,CLI-1713
+PED-0017,ITEM-00056,Inalador Nebulizador,equipamentos,5,149.9,2026-08-14,cancelado,CLI-9666
+PED-0047,ITEM-00139,Shampoo Anticaspa 300ml,higiene,3,22.5,2026-08-23,pago,CLI-3573
+PED-0109,ITEM-00332,Creme para Mãos 100g,dermocosmeticos,3,"18,5",2026-09-09,pago,CLI-7070
+PED-0120,ITEM-00367,Omeprazol 20mg,medicamentos,2,15.4,2026-08-25,pago,CLI-1860
+PED-0033,ITEM-00103,Termômetro Digital,equipamentos,1,59.9,2026-08-24,pendente,CLI-3223
+PED-0118,ITEM-00359,Inalador Nebulizador,equipamentos,3,149.9,2026-08-26,pendente,CLI-4150
+PED-0063,ITEM-00190,Shampoo Anticaspa 300ml,higiene,5,22.5,2026-08-09,pendente,CLI-9697
+PED-0020,ITEM-00063,Dipirona 500mg,medicamentos,2,8.9,2026-08-31,pago,CLI-7049
+PED-0005,ITEM-00013,Complexo B 60 cápsulas,vitaminas,3,19.9,2026-08-06,cancelado,CLI-4598
+PED-0074,ITEM-00224,Vitamina D3 2000UI,vitaminas,4,29.9,2026-08-10,cancelado,CLI-1842
+PED-0059,ITEM-00181,Vitamina D3 2000UI,vitaminas,5,29.9,2026-09-24,pago,CLI-8237
+PED-0057,ITEM-00173,Sérum Vitamina C 30ml,dermocosmeticos,5,89.9,2026-10-02,cancelado,CLI-2121
+PED-0051,ITEM-00154,Protetor Solar FPS 50,dermocosmeticos,4,45.9,2026-08-10,cancelado,CLI-1018
+PED-0101,ITEM-00303,Vitamina D3 2000UI,vitaminas,4,29.9,2026-10-02,cancelado,CLI-6776
+PED-0006,ITEM-00018,Sérum Vitamina C 30ml,dermocosmeticos,5,89.9,2026-09-09,pendente,CLI-4593
+PED-0016,ITEM-00052,Fio Dental 50m,higiene,4,5.8,2026-09-26,cancelado,CLI-5915
+PED-0011,ITEM-00035,Omeprazol 20mg,medicamentos,2,15.4,2026-09-17,cancelado,CLI-8953
+PED-0109,ITEM-00331,Complexo B 60 cápsulas,vitaminas,2,19.9,2026-09-13,cancelado,CLI-3353
+PED-0041,ITEM-00124,Ômega 3 1000mg,vitaminas,3,38.9,2026-08-23,cancelado,CLI-7046
+PED-0003,ITEM-00009,Medidor de Pressão Automático,equipamentos,1,189.9,2026-10-02,cancelado,CLI-4733
+PED-0070,ITEM-00215,Vitamina C 1g Efervescente,vitaminas,1,24.9,2026-09-14,cancelado,CLI-3430
+PED-0109,ITEM-00330,Vitamina C 1g Efervescente,vitaminas,1,24.9,2026-09-24,pendente,CLI-7809
+PED-0113,ITEM-00344,Amoxicilina 500mg,medicamentos,3,18.9,2026-08-15,pendente,CLI-6990
+PED-0031,ITEM-00097,Vitamina C 1g Efervescente,vitaminas,2,24.9,2026-08-12,pendente,CLI-7381
+PED-0047,ITEM-00142,Fio Dental 50m,higiene,3,5.8,2026-08-21,pendente,CLI-2166
+PED-0025,ITEM-00080,Shampoo Anticaspa 300ml,higiene,4,22.5,2026-08-23,pendente,CLI-3851
+PED-0058,ITEM-00178,Medidor de Pressão Automático,equipamentos,2,189.9,2026-09-23,pago,CLI-7267
+PED-0079,ITEM-00236,Sérum Vitamina C 30ml,dermocosmeticos,1,89.9,2026-09-16,cancelado,CLI-8972
+PED-0069,ITEM-00209,Paracetamol 750mg,medicamentos,1,7.5,2026-09-12,pago,CLI-6304
+PED-0039,ITEM-00118,Hidratante Facial 60g,dermocosmeticos,1,32.0,2026-09-17,pendente,CLI-4995
+PED-0064,ITEM-00195,Glicosímetro,equipamentos,3,79.9,2026-09-28,cancelado,CLI-4830
+PED-0072,ITEM-00218,Dipirona 500mg,medicamentos,5,8.9,2026-08-19,pago,CLI-8046
+PED-0080,ITEM-00238,Paracetamol 750mg,medicamentos,3,7.5,2026-08-05,pago,CLI-3248
+PED-0051,ITEM-00153,Vitamina C 1g Efervescente,vitaminas,4,24.9,2026-09-29,pendente,CLI-5135
+PED-0104,ITEM-00314,Creme para Mãos 100g,dermocosmeticos,1,18.5,2026-08-30,cancelado,CLI-5757
+PED-0118,ITEM-00362,Inalador Nebulizador,equipamentos,3,149.9,2026-09-27,cancelado,CLI-9899
+PED-0039,ITEM-00115,Amoxicilina 500mg,medicamentos,4,18.9,2026-09-28,pendente,CLI-6934
+PED-0021,ITEM-00066,Sérum Vitamina C 30ml,dermocosmeticos,5,89.9,2026-08-18,pago,CLI-4878
+PED-0115,ITEM-00348,Creme para Mãos 100g,dermocosmeticos,2,18.5,2026-09-09,cancelado,CLI-5902
+PED-0066,ITEM-00202,Ibuprofeno 600mg,medicamentos,2,12.3,2026-09-06,pendente,CLI-4868
+PED-0117,ITEM-00357,Shampoo Anticaspa 300ml,higiene,5,22.5,2026-09-14,cancelado,CLI-8837
+PED-0029,ITEM-00092,Vitamina D3 2000UI,vitaminas,2,29.9,2026-08-12,cancelado,CLI-5543
+PED-0025,ITEM-00081,Inalador Nebulizador,equipamentos,4,149.9,2026-08-30,pago,CLI-5978
+PED-0058,ITEM-00179,Medidor de Pressão Automático,equipamentos,4,189.9,2026-08-07,cancelado,CLI-3344
+PED-0119,ITEM-00366,Sabonete Líquido 250ml,higiene,5,9.9,2026-08-18,cancelado,CLI-4920
+PED-0092,ITEM-00277,Fio Dental 50m,higiene,4,5.8,2026-08-08,cancelado,CLI-3414
+PED-0115,ITEM-00351,Protetor Solar FPS 50,dermocosmeticos,4,45.9,2026-08-28,pendente,CLI-1436
+PED-0064,ITEM-00193,Vitamina D3 2000UI,vitaminas,1,29.9,2026-08-15,pendente,CLI-1228
+PED-0064,ITEM-00194,Protetor Solar FPS 50,dermocosmeticos,4,45.9,2026-09-11,cancelado,CLI-5295
+PED-0076,ITEM-00230,Protetor Solar FPS 50,dermocosmeticos,2,45.9,2026-08-10,pago,CLI-7566
+PED-0065,ITEM-00196,Omeprazol 20mg,medicamentos,5,15.4,2026-09-14,cancelado,CLI-4626
+PED-0081,ITEM-00244,Ibuprofeno 600mg,medicamentos,2,12.3,2026-08-14,cancelado,CLI-8538
+PED-0071,ITEM-00216,Fio Dental 50m,higiene,5,5.8,2026-08-25,cancelado,CLI-9984
+PED-0022,ITEM-00070,Creme para Mãos 100g,dermocosmeticos,2,18.5,2026-09-20,pago,CLI-4164
+PED-0029,ITEM-00093,Glicosímetro,equipamentos,2,79.9,2026-09-17,pendente,CLI-2269
+PED-0069,ITEM-00210,Paracetamol 750mg,medicamentos,3,7.5,2026-10-01,pago,CLI-7897
+PED-0049,ITEM-00147,Omeprazol 20mg,medicamentos,1,15.4,2026-08-09,pendente,CLI-6280
+PED-0006,ITEM-00017,Fio Dental 50m,higiene,2,5.8,2026-09-19,cancelado,CLI-9830
+PED-0118,ITEM-00358,Vitamina D3 2000UI,vitaminas,2,29.9,2026-09-05,cancelado,CLI-6608
+PED-0011,ITEM-00036,Shampoo Anticaspa 300ml,higiene,5,22.5,2026-08-29,pendente,CLI-4981
+PED-0010,ITEM-00031,Sérum Vitamina C 30ml,dermocosmeticos,3,89.9,2026-09-06,cancelado,CLI-8397
+PED-0093,ITEM-00278,Paracetamol 750mg,medicamentos,4,7.5,2026-08-09,pendente,CLI-1436
+PED-0011,ITEM-00033,Medidor de Pressão Automático,equipamentos,5,189.9,2026-09-20,pago,CLI-2163
+PED-0058,ITEM-00177,Sérum Vitamina C 30ml,dermocosmeticos,2,89.9,2026-09-19,cancelado,CLI-7751
+PED-0072,ITEM-00217,Vitamina D3 2000UI,vitaminas,4,29.9,2026-09-02,cancelado,CLI-8048
+PED-0008,ITEM-00024,Hidratante Facial 60g,dermocosmeticos,5,32.0,2026-08-07,pago,CLI-5889
+PED-0012,ITEM-00038,Complexo B 60 cápsulas,vitaminas,4,19.9,2026-08-10,cancelado,CLI-1887
+PED-0099,ITEM-00297,Protetor Solar FPS 50,dermocosmeticos,2,45.9,2026-09-16,pendente,CLI-1783
+PED-0116,ITEM-00355,null,higiene,4,9.9,2026-09-14,pendente,CLI-3481
+PED-0002,ITEM-00002,Omeprazol 20mg,medicamentos,4,15.4,2026-10-02,pago,CLI-2535
+PED-0044,ITEM-00131,Fio Dental 50m,higiene,1,5.8,2026-10-01,cancelado,CLI-5786
+PED-0067,ITEM-00203,Ibuprofeno 600mg,medicamentos,5,12.3,2026-08-08,cancelado,CLI-6876
+PED-0004,ITEM-00012,Omeprazol 20mg,medicamentos,2,15.4,2026-08-31,cancelado,CLI-5010
+PED-0055,ITEM-00165,Escova de Dente Macia,higiene,5,8.2,2026-09-04,pendente,CLI-6446
+PED-0080,ITEM-00237,Protetor Solar FPS 50,dermocosmeticos,2,45.9,2026-09-09,cancelado,CLI-1897
+PED-0096,ITEM-00287,Shampoo Anticaspa 300ml,higiene,3,22.5,2026-09-07,pago,CLI-6780
+PED-0010,ITEM-00030,Glicosímetro,equipamentos,2,79.9,2026-08-06,cancelado,CLI-4295
+PED-0113,ITEM-00345,Shampoo Anticaspa 300ml,higiene,5,22.5,2026-09-02,pendente,CLI-9193
+PED-0078,ITEM-00234,Sabonete Líquido 250ml,higiene,1,9.9,2026-09-17,pendente,CLI-7947
+PED-0118,ITEM-00360,Fio Dental 50m,higiene,5,5.8,2026-09-15,pago,CLI-5876
+PED-0087,ITEM-00263,Protetor Solar FPS 50,dermocosmeticos,5,45.9,2026-08-23,pago,CLI-6731
+PED-0022,ITEM-00068,Fio Dental 50m,higiene,2,5.8,2026-08-15,cancelado,CLI-2771
+PED-0119,ITEM-00363,Vitamina D3 2000UI,vitaminas,2,29.9,2026-09-16,pago,CLI-5712
+PED-0009,ITEM-00029,Medidor de Pressão Automático,equipamentos,2,189.9,2026-08-23,pendente,CLI-3705
+PED-0116,ITEM-00353,Glicosímetro,equipamentos,2,79.9,2026-09-01,cancelado,CLI-7229
+PED-0087,ITEM-00262,Glicosímetro,equipamentos,3,79.9,2026-09-18,cancelado,CLI-3463
+PED-0014,ITEM-00047,Ibuprofeno 600mg,medicamentos,1,12.3,2026-10-01,cancelado,CLI-8811
+PED-0083,ITEM-00251,Complexo B 60 cápsulas,vitaminas,5,19.9,2026-08-24,cancelado,CLI-6295
+PED-0100,ITEM-00299,Complexo B 60 cápsulas,Vitaminas,3,19.9,2026-09-23,pendente,CLI-9151
+PED-0033,ITEM-00106,Vitamina D3 2000UI,vitaminas,1,29.9,2026-09-04,pago,CLI-9837
+PED-0019,ITEM-00060,Sérum Vitamina C 30ml,dermocosmeticos,3,89.9,2026-08-08,pago,CLI-2512
+PED-0075,ITEM-00227,Inalador Nebulizador,equipamentos,1,149.9,2026-08-17,pendente,CLI-4705
+PED-0088,ITEM-00267,Hidratante Facial 60g,dermocosmeticos,2,32.0,2026-09-13,pendente,CLI-4145
+PED-0055,ITEM-00168,Sérum Vitamina C 30ml,dermocosmeticos,4,89.9,2026-09-10,cancelado,CLI-3492
+PED-0026,ITEM-00085,Fio Dental 50m,higiene,2,5.8,2026-08-14,pago,CLI-3414
+PED-0024,ITEM-00077,Fio Dental 50m,higiene,4,5.8,2026-09-30,cancelado,CLI-6409
+PED-0091,ITEM-00275,Shampoo Anticaspa 300ml,higiene,3,22.5,2026-10-01,cancelado,CLI-8873
+PED-0098,ITEM-00294,null,vitaminas,tres,19.9,2026-08-14,pago,CLI-2033
+PED-0033,ITEM-00104,Ômega 3 1000mg,vitaminas,1,38.9,2026-09-18,pendente,CLI-6363
+PED-0086,ITEM-00259,Paracetamol 750mg,medicamentos,4,"7,5",2026-09-06,cancelado,CLI-9564
+PED-0093,ITEM-00281,Ibuprofeno 600mg,medicamentos,2,12.3,2026-09-26,pago,CLI-5700
+PED-0014,ITEM-00046,Shampoo Anticaspa 300ml,higiene,3,22.5,2026-09-21,pago,CLI-9883
+PED-0018,ITEM-00058,Protetor Solar FPS 50,dermocosmeticos,1,"45,9",2026-08-18,cancelado,CLI-3546
+PED-0096,ITEM-00289,Inalador Nebulizador,equipamentos,1,149.9,2026-09-01,cancelado,CLI-9312
+PED-0012,ITEM-00040,Shampoo Anticaspa 300ml,higiene,2,22.5,2026-08-31,pendente,CLI-3296
+PED-0061,ITEM-00186,Glicosímetro,equipamentos,3,79.9,2026-08-16,pago,CLI-6772
+PED-0090,ITEM-00271,Vitamina C 1g Efervescente,vitaminas,4,24.9,2026-09-11,cancelado,CLI-4891
+PED-0076,ITEM-00229,Paracetamol 750mg,Medicamentos,3,7.5,2026-08-21,pendente,CLI-6567
+PED-0090,ITEM-00270,Ômega 3 1000mg,vitaminas,2,38.9,2026-09-23,cancelado,CLI-3712
+PED-0013,ITEM-00042,Termômetro Digital,equipamentos,1,59.9,2026-08-24,cancelado,CLI-1241
+PED-0102,ITEM-00306,Paracetamol 750mg,medicamentos,1,7.5,2026-09-19,cancelado,CLI-7001
+PED-0115,ITEM-00349,Inalador Nebulizador,equipamentos,5,149.9,2026-08-12,cancelado,CLI-9721
+PED-0042,ITEM-00127,Fio Dental 50m,higiene,1,5.8,2026-08-18,cancelado,CLI-4033
+PED-0037,ITEM-00112,Ômega 3 1000mg,vitaminas,1,38.9,2026-08-28,cancelado,CLI-4978
+PED-0112,ITEM-00341,Sérum Vitamina C 30ml,dermocosmeticos,3,89.9,2026-10-02,pendente,CLI-1838
+PED-0091,ITEM-00276,Protetor Solar FPS 50,dermocosmeticos,5,45.9,2026-08-11,pago,CLI-5670
+PED-0081,ITEM-00242,Amoxicilina 500mg,medicamentos,1,18.9,2026-08-10,pendente,CLI-8033
+PED-0094,ITEM-00282,Escova de Dente Macia,higiene,4,8.2,2026-08-26,pago,CLI-2298
+PED-0070,ITEM-00213,Inalador Nebulizador,equipamentos,4,149.9,2026-08-24,pago,CLI-1996
+PED-0064,ITEM-00192,Protetor Solar FPS 50,dermocosmeticos,4,45.9,2026-09-30,pago,CLI-4696
+PED-0103,ITEM-00311,Termômetro Digital,equipamentos,3,59.9,2026-08-16,pendente,CLI-8311
+PED-0077,ITEM-00233,Creme para Mãos 100g,dermocosmeticos,5,18.5,2026-08-27,pago,CLI-1861
+PED-0024,ITEM-00079,Sérum Vitamina C 30ml,dermocosmeticos,3,89.9,2026-09-09,cancelado,CLI-5844
+PED-0081,ITEM-00245,Protetor Solar FPS 50,dermocosmeticos,4,45.9,11/08/2026,pago,CLI-4986
+PED-0022,ITEM-00069,Vitamina C 1g Efervescente,vitaminas,4,,2026-09-20,pago,CLI-8541
+PED-0038,ITEM-00113,Protetor Solar FPS 50,dermocosmeticos,5,45.9,2026-08-15,pago,CLI-6688
+PED-0039,ITEM-00114,Vitamina D3 2000UI,vitaminas,1,29.9,2026-09-02,cancelado,CLI-6590
+PED-0105,ITEM-00315,Shampoo Anticaspa 300ml,higiene,3,22.5,2026-09-02,pago,CLI-2988
+PED-0063,ITEM-00189,Ibuprofeno 600mg,medicamentos,3,12.3,2026-08-18,pendente,CLI-3877
+PED-0050,ITEM-00152,Paracetamol 750mg,medicamentos,3,7.5,2026-09-08,cancelado,CLI-9117
+PED-0108,ITEM-00328,Glicosímetro,equipamentos,5,79.9,2026-08-25,pago,CLI-9159
+PED-0109,ITEM-00331,Complexo B 60 cápsulas,vitaminas,2,19.9,2026-09-13,cancelado,CLI-3353
+PED-0116,ITEM-00354,Shampoo Anticaspa 300ml,higiene,1,22.5,2026-08-29,cancelado,CLI-2800
+PED-0053,ITEM-00160,Amoxicilina 500mg,medicamentos,1,18.9,2026-08-24,pago,CLI-9165
+PED-0118,ITEM-00361,Hidratante Facial 60g,dermocosmeticos,4,32.0,2026-09-14,pendente,CLI-6714
+PED-0086,ITEM-00258,Ibuprofeno 600mg,medicamentos,1,12.3,2026-09-02,cancelado,CLI-3827
+PED-0116,ITEM-00352,Vitamina D3 2000UI,vitaminas,5,29.9,2026-08-29,pago,CLI-1841
+PED-0069,ITEM-00208,Shampoo Anticaspa 300ml,higiene,5,22.5,2026-09-18,pago,CLI-2801
+PED-0025,ITEM-00082,Hidratante Facial 60g,dermocosmeticos,4,32.0,2026-08-15,cancelado,CLI-6279
+PED-0052,ITEM-00158,Dipirona 500mg,medicamentos,5,8.9,2026-08-14,pago,CLI-3594
+PED-0080,ITEM-00239,Creme para Mãos 100g,dermocosmeticos,3,18.5,2026-09-27,pago,CLI-9149
+PED-0019,ITEM-00061,Vitamina D3 2000UI,vitaminas,1,29.9,2026-10-04,pendente,CLI-3143
+PED-0112,ITEM-00342,Medidor de Pressão Automático,equipamentos,3,189.9,2026-08-30,pendente,CLI-2204
+PED-0010,ITEM-00032,Paracetamol 750mg,medicamentos,2,7.5,2026-09-30,pendente,CLI-1344
+PED-0040,ITEM-00121,Creme para Mãos 100g,Dermocosmeticos,5,18.5,2026-10-04,cancelado,CLI-4130
