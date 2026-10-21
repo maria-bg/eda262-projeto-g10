@@ -16,3 +16,8 @@ dados/
 # Python
 __pycache__/
 *.pyc
+
+# Configuração local do Terraform (todas as partes)
+**/terraform.tfvars
+**/backend.hcl
+aluno-aula-21-elt-particionado/

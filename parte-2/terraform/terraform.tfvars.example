@@ -1,0 +1,11 @@
+# Copie para terraform.tfvars somente se o arquivo local ainda não existir.
+# Turma obtida do README da Parte 1; informe o e-mail real via prompt do Terraform
+# ou descomente owner abaixo. Não coloque credenciais neste arquivo.
+turma  = "eda262"
+sufixo = "grupo10"
+# owner = "" # PENDENTE: e-mail real de quem responde pela stack.
+
+chaves_particao      = ["dt"]
+arquivos_por_pasta   = 1
+meta_bytes_madrugada = 524288   # Meta inicial: confirmar no Athena; ver DECISOES.md.
+teto_bytes           = 10485760 # 10 MiB; confirmar bloqueio da consulta ampla.

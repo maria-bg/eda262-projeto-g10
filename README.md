@@ -139,3 +139,21 @@ cd ..
 | State bucket | `eda262-g10-terraform-state` |
 | Lock table | `eda262-g10-terraform-locks` |
 | State key | `parte-1/terraform.tfstate` |
+
+### Parte 2 — Trusted em Parquet particionado
+
+O Lab 21 (`parte-2/`) é o primeiro incremento da AV2, independente dos recursos
+da Parte 1: corridas em Parquet + Snappy, particionadas por `dt`.
+
+A implementação utiliza 1 arquivo Parquet por dia, `MSCK REPAIR TABLE` para
+registro das partições e WorkGroup do Athena com limite de 10 MiB.
+
+Na validação:
+- 518.400 corridas em 30 dias;
+- 30 arquivos Parquet;
+- consulta de 7 dias lendo 355.803 bytes;
+- 11.137 corridas em 22 bairros;
+- critérios automáticos: 70/70;
+- destroy limpo: 10/10.
+
+Consulte [`parte-2/DECISOES.md`](parte-2/DECISOES.md) para as decisões e medições.
