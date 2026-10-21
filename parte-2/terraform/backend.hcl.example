@@ -1,0 +1,8 @@
+# Confirme o backend da disciplina; não reutilize automaticamente o da AV1.
+# cp backend.hcl.example backend.hcl e troque CONTA pelo valor real. Depois:
+#   terraform init -backend-config=backend.hcl
+bucket         = "eda-tfstate-CONTA"
+key            = "aula21/grupo-10/terraform.tfstate"
+region         = "us-east-1"
+dynamodb_table = "eda-tflock"
+encrypt        = true
