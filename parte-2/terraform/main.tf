@@ -10,7 +10,7 @@
 # =============================================================================
 
 locals {
-  nome = "eda-a21"
+  nome = "eda-a25"
 
   # As 10 colunas da trusted (as mesmas do Lab 05). A coluna que vira chave de
   # partição sai daqui: ela passa a morar no caminho, não dentro do arquivo.
@@ -242,6 +242,9 @@ resource "aws_glue_job" "trusted" {
     "--BUCKET"              = aws_s3_bucket.lake.bucket
     "--CHAVES"              = join(",", var.chaves_particao)
     "--ARQUIVOS_POR_PASTA"  = tostring(var.arquivos_por_pasta)
+    "--MODO"                = var.modo_escrita
+    "--CHAVE"               = var.chave_dedup
+    "--JANELA"              = tostring(var.janela_atraso_dias)
     "--job-language"        = "python"
     "--job-bookmark-option" = "job-bookmark-disable"
   }

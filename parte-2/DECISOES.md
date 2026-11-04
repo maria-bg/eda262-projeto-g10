@@ -1,25 +1,36 @@
-# DECISOES.md — Parte 2 / Exercício 04 (Aula 21)
+# DECISOES.md — Parte 2 / Exercício 05 (Aula 25)
 
-Primeiro incremento da AV2. As configurações declaradas representam as decisões tomadas para o laboratório, enquanto os valores apresentados nas decisões abaixo foram obtidos durante a execução real na AWS.
+As decisões abaixo configuram o pipeline idempotente que lida com dois problemas
+intencionais no raw: dado atrasado (madrugada de D-3 chegando hoje) e arquivo
+reenviado (D-5 enviado duas vezes).
 
-**DECISÃO 01 — chave de partição.** Escolhi `dt` porque a pergunta da madrugada filtra diretamente essa chave e permite partition pruning. Dessa forma, aceito ler as colunas necessárias de todos os bairros nos dias selecionados, evitando consultar partições fora da janela. Na consulta oficial de 7 dias foram acessadas 7 partições e 7 arquivos, um arquivo por dia.
+---
 
-**DECISÃO 02 — arquivos por pasta.** Escolhi 1 arquivo por pasta para reduzir a quantidade de arquivos pequenos, rodapés e requisições ao S3, aceitando menor paralelismo neste volume. Após a execução, foram gerados 30 arquivos Parquet, totalizando 18.143.089 bytes, com tamanho médio de 604.769,63 bytes por arquivo. O menor arquivo possui 603.763 bytes e o maior 605.934 bytes. Na janela de 7 dias, os rodapés dos 7 arquivos somaram 14.602 bytes.
+**DECISÃO 01 — modo de escrita (`modo_escrita = "sobrescrever"`).** Escolhemos
+`sobrescrever` (Spark `mode("overwrite")`) porque ele apaga e regrava cada partição
+`dt` inteiramente a cada execução. Isso garante idempotência: rodar o job duas vezes
+com os mesmos dados produz exatamente o mesmo número de linhas. Aceita-se que
+partições parcialmente escritas por uma execução anterior sejam descartadas. Após
+a segunda execução do job, a contagem permaneceu em **518.400 linhas** — igual à
+primeira execução.
 
-**DECISÃO 03 — a meta de custo.** Declarei inicialmente 524.288 bytes (512 KiB), usando como referência os aproximadamente 0,4 MB apresentados pelo professor no Lab 05 e mantendo a meta abaixo de 1 MiB. Na execução real, a pergunta da madrugada leu 355.803 bytes no Athena, ficando dentro da meta declarada. A consulta retornou 22 bairros e somou 11.137 corridas, conforme o resultado esperado.
+**DECISÃO 02 — chave de deduplicação (`chave_dedup = "corrida_id"`).** Escolhemos
+`corrida_id` como chave de deduplicação (`dropDuplicates(["corrida_id"])`). O arquivo
+de D-5 foi enviado duas vezes, adicionando **17.280 linhas duplicadas** ao raw. Sem
+essa decisão, a trusted teria 535.680 linhas. Com a deduplicação, as 17.280 duplicatas
+foram removidas e a contagem final foi de **518.400 linhas** — o número correto.
+A chave `corrida_id` é única por corrida e portanto não descarta corridas legítimas.
 
-**DECISÃO 04 — o teto do workgroup.** Declarei 10.485.760 bytes (10 MiB), com `enforce_workgroup_configuration = true`, para permitir consultas pequenas e corretamente particionadas e impedir consultas que escaneiem um volume excessivo de dados. A pergunta da madrugada passou lendo 355.803 bytes. Já a consulta ampla foi cancelada ao atingir o limite de 10.485.760 bytes, com o motivo `Bytes scanned limit was exceeded`. O trade-off dessa decisão é que consultas legítimas que precisem ler mais de 10 MiB também serão interrompidas.
+**DECISÃO 03 — janela de atraso (`janela_atraso_dias = 3`).** Escolhemos janela de
+3 dias para aceitar eventos com até 3 dias de atraso entre o dia do evento e o dia
+de chegada ao raw. Isso cobre o caso da madrugada de D-3 que chegou hoje. A janela
+de 3 dias foi suficiente para incluir **11.137 corridas** na consulta da madrugada dos
+últimos 7 dias. Eventos com lag > 3 dias são descartados como `fora_da_janela`;
+nenhum evento legítimo dos 30 dias foi perdido com essa configuração.
 
-**DECISÃO 05 — o registro das partições.** Escolhi `MSCK REPAIR TABLE`, com `projecao = {}` e execução pelo `rodar-job.sh`, por ser uma forma simples de registrar no Glue as partições existentes no S3. Na execução foram registradas 30 partições, e o MSCK levou aproximadamente 4,92 segundos, com 4.508 ms reportados como tempo de execução pelo Athena. Caso uma nova pasta de partição seja adicionada posteriormente, como em um dia 31, será necessário executar novamente o `MSCK REPAIR TABLE` para que ela seja registrada no catálogo.
-
-## Evidências da execução
-
-- A carga raw gerou 30 objetos, totalizando 117.655.606 bytes e 518.400 eventos.
-- O Glue Job terminou com status `SUCCEEDED`, processando 518.400 linhas raw e gerando 518.400 linhas trusted em 30 dias.
-- Foram produzidos 30 arquivos Parquet, totalizando 18.143.089 bytes.
-- A consulta oficial utilizou filtro pela partição `dt`, abriu 7 arquivos, retornou 22 bairros e 11.137 corridas e leu 355.803 bytes.
-- Os rodapés dos 7 arquivos Parquet consultados somaram 14.602 bytes.
-- A consulta ampla foi cancelada pelo limite do workgroup ao atingir 10.485.760 bytes, com a mensagem `Bytes scanned limit was exceeded`.
-- O `MSCK REPAIR TABLE` registrou 30 partições e levou aproximadamente 4,92 segundos.
-- O `./verificacao/verifica.sh` atingiu `70 / 70` pontos-percentuais nos critérios automáticos.
-- Após a remoção da infraestrutura, a saída de `./verificacao/verifica.sh --pos-destroy` deve ser anexada ao PR como evidência do critério de destroy limpo.
+**DECISÃO 04 — backfill (apenas DECISOES.md).** Para reprocessar uma partição
+específica em caso de necessidade, basta rodar `./rodar-job.sh` novamente — o job
+processa toda a raw e regrava todas as partições da trusted. O backfill não duplica
+porque o `modo_escrita = "sobrescrever"` apaga a partição antes de regravar, e a
+`chave_dedup = "corrida_id"` remove duplicatas dentro de uma mesma partição. O custo
+de uma execução completa é inferior a US$ 0,40 (2 workers G.1X × 20 min máx).
