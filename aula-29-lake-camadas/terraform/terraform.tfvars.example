@@ -1,0 +1,17 @@
+# Copie para terraform.tfvars. Ajuste turma e sufixo aos valores do seu grupo.
+turma  = "eda262"
+sufixo = "grupo10"
+
+escopo_prefeitura        = "tabela"
+colunas_ocultas_analista = ["motorista_id", "passageiro_id"]
+
+contrato_refined = {
+  descricao   = "Total de corridas e receita das 00h às 05h59 por bairro e dia do evento, sem identificadores de corrida, motorista ou passageiro."
+  dono        = "Engenharia de Dados do Grupo 10"
+  atualizacao = "A cada execução do job refined após a carga trusted, com reprocessamento dos dias recalculados."
+  comentarios = {
+    bairro   = "Bairro da corrida usado no agrupamento."
+    corridas = "Quantidade de corridas iniciadas das 00h às 05h59 no bairro e dia."
+    receita  = "Soma dos valores das corridas contabilizadas, em reais, arredondada a duas casas decimais."
+  }
+}
